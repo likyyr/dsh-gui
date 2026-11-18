@@ -1,0 +1,9 @@
+tests/gui_regression_report.txt
+__pycache__/
+*.pyc
+tests/assets/_runtime_crop.png
+*.tgz
+lib/gui_server/server.*.log
+*.pyo
+tests/*_report.txt
+*.bak-*

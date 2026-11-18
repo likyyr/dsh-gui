@@ -1,0 +1,23 @@
+{
+  "name": "dsh-gui",
+  "version": "0.2.6",
+  "description": "自创 GUI 操作插件：控件矩形即物理坐标（零换算），动作前重取、动作后回读校验；自带 Python 依赖（vendor），拷到哪都能跑；去掉审计与逐动作审批",
+  "type": "module",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "files": [
+    "lib/index.js",
+    "lib/gui_server/*.py",
+    "lib/gui_server/vendor",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  }
+}

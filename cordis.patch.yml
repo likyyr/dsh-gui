@@ -1,0 +1,9 @@
+# dsh-gui bundle patch
+# 装法：dsh plugin --profile desktop add "file:<本地目录>/dsh-gui"
+- insert:
+    - id: gui
+      name: 'dsh-gui'
+      config:
+        port: 8791
+        python: ''
+        autoStart: true
